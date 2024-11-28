@@ -1,10 +1,9 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+
 export default function Erro()
-
 {
-
-     return (
-        <div>
+    return (
+        <div className="conteudo">
             <h1>Erro</h1>
             <p>Parece que a página que você está procurando não está disponível. Isso pode ter acontecido por um link quebrado, um erro de digitação ou a página pode ter sido removida.</p>
             
@@ -17,5 +16,5 @@ export default function Erro()
 
             <p>Agradecemos a sua compreensão!</p>
         </div>
-     );
+    );
 }
